@@ -83,7 +83,7 @@ jobs:
     - name: Install dependencies
       uses: py-actions/py-dependency-install@v4
       with:
-        path: requirements/ci-bot.txt
+        path: requirements/ci.txt
     - name: Run unittests
       env:
         COLOR: yes
